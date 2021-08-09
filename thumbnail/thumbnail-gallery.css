@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(to top, #F0F8FF 0%, #FFFFE0 100%); #F0F8FF #a5abc9 #dfe7ed
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+}
+
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 750;
+    color: black;
+}
+
+.gallery-container div.page-description {
+    padding: 0px 75px 0px 75px;
+    text-align: justify;
+    margin: 30px auto;
+    font-size: 20px;
+    color: black;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.gallery-container span.page-description {
+    font-size: 96px;
+    color: #cc0000;
+    line-height: 0.8;
+    font-weight: 900;
+}
+
+.tz-gallery {
+    padding: 0px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: #c2ebff; /*#aad6ff; #A1CAF1;#a9afcf;*/
+    border-radius: 6px;
+    border: solid 1px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(150, 150, 180, 0.06);
+}
+/*Нежеследующие две строки нужны для эффекта всплывания не только для картины, но и для блока
+который содержит эту картину*/
+
+/*.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}*/
+
+.tz-gallery .lightbox img {
+    box-shadow: 0 8px 15px rgba(150, 150, 180, 0.06);
+    /*border: 10px solid #d4af37;*/
+    border-radius: 5px;
+}
+
+.tz-gallery .lightbox img:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: black;
+}
+
+.tz-gallery .caption p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin: 0px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
